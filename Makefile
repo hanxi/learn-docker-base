@@ -10,8 +10,8 @@ debug:
 	@echo "srcs = $(srcs)"
 	@echo "bins = $(bins)"
 
-$(bins): $(srcs)
-	gcc $< -o $@
+$(bins):
+	gcc $@.c -o $@
 
 clean:
 	rm -f $(bins)
