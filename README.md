@@ -3,4 +3,4 @@
 
 ## Docker
 
-![](images/Docker.svg)
+![](images/Docker.png)
